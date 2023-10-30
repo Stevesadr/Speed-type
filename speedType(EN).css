@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "googlefont";
+    src: url(../../../fonts/Sometype_Mono/static/SometypeMono-Medium.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+body{
+    font-family: "googlefont",sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+header{
+    height: 15%;
+}
+section{
+    height: 85%;
+}
+.top-text{
+    width: 100%;
+    height: 100%;
+    background-color: #86A789;
+    color: #D2E3CB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-div{
+    background-color: #B2C8BA;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.right-div{
+    width: 50%;
+    padding: 10px;
+    margin:10px;
+}
+.left-div{
+    width: 50%;
+    padding: 10px;
+    margin:10px;
+}
+.text{
+    background-color: #EBF3EB;
+    width: 93%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.show-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 65%;
+}
+textarea{
+    width: 90%;
+    border: 10px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+    font: bold;
+    height: 80%;
+}
+.check{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.true-div-icon{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.false-div-icon{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.lern-text{
+    background-color: #EBF3EB;
+    width: 93%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    padding-right: 5px;
+    color: #86A789;
+}
+.timer{
+    width: 100%;
+    height: 30%;
+    color: #EBF3EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+.btn-div{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 30%;
+    height: 70%;
+    background-color: #86A789;
+    color: #EBF3EB;
+    border-radius: 30px;
+    font-size: 30px;
+    border: 0.5px solid #EBF3EB;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    
+  }
+  span{
+    font-size: 30px;
+  }
+
